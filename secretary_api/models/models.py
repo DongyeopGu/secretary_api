@@ -42,6 +42,7 @@ class MemberInfo(models.Model):
     state = models.CharField(max_length=80)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
     class Meta:
         managed = False
         db_table = 'member_info'
