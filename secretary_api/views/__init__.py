@@ -1,0 +1,1 @@
+from secretary_api.views.user import UserViewSet
